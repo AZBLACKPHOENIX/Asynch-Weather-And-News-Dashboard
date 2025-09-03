@@ -1,1 +1,1 @@
-#Asych Weather & News Dashboard
+#A sych Weather & News Dashboard
