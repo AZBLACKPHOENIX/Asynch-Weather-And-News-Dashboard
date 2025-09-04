@@ -40,7 +40,7 @@ export async function fetchNewsAsync(limit: number = CONFIG.NEWS_LIMIT) {
   return JSON.parse(data);
 }
 
-// ----------------------
+// -
 (async () => {
   try {
     const weather = await fetchWeatherAsync(CONFIG.DEFAULT_COORDS.latitude, CONFIG.DEFAULT_COORDS.longitude);
