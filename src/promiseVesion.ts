@@ -1,5 +1,5 @@
 import https from "https"
-import { CONFIG } from './config'
+import { CONFIG } from "./config"
 
 
 function get(url:string):Promise<string>{
