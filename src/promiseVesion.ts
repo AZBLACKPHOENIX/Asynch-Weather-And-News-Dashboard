@@ -1,7 +1,6 @@
 import https from "https"
 import { CONFIG } from "./config"
 
-
 function get(url:string):Promise<string>{
     return new Promise((resolve, reject)=>{
         https.get(url, (res)=>{
